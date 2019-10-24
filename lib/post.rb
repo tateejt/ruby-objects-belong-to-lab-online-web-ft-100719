@@ -8,7 +8,7 @@ class Post
 
   def author_name
     if @author == nil
-      nil
+     return nil
     else
       @author.name
     end
